@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy.Shared", "Fantasy.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy.Tests", "Fantasy.Tests\Fantasy.Tests.csproj", "{706358F5-F111-4C37-BC6A-9170DA2FA92F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fantasy.Frondend", "..\Fantasy.Frondend\Fantasy.Frondend.csproj", "{D66EA245-5AF7-4E61-A2F4-75B718E01180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{706358F5-F111-4C37-BC6A-9170DA2FA92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{706358F5-F111-4C37-BC6A-9170DA2FA92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{706358F5-F111-4C37-BC6A-9170DA2FA92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66EA245-5AF7-4E61-A2F4-75B718E01180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66EA245-5AF7-4E61-A2F4-75B718E01180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66EA245-5AF7-4E61-A2F4-75B718E01180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66EA245-5AF7-4E61-A2F4-75B718E01180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
