@@ -1,13 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace Fantasy.Shared.Entities;
-public class Country
+
+public class Team
 {
     public int Id { get; set; }
     [MaxLength(100)]
     [Required]
     public string Name { get; set; } = string.Empty;
 
-    public ICollection<Team>? Teams { get; set; }
+    public string? Image { get; set; }
 
-    public int TeamsCount => Teams == null ? 0 : Teams.Count;
+    public Country Country { get; set; } = null!;
+
+    public int CountryId { get; set; }
 }

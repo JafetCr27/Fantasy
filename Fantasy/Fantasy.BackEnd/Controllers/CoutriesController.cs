@@ -51,7 +51,7 @@
             await _context.SaveChangesAsync();
             return NoContent();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync(int id)
         {
             var country = await _context.Countries.FindAsync(id);
