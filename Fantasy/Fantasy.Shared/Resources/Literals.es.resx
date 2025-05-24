@@ -151,4 +151,31 @@
   <data name="SaveChanges" xml:space="preserve">
     <value>Guardar cambios</value>
   </data>
+  <data name="ERROO1" xml:space="preserve">
+    <value>Registro no encontrado</value>
+  </data>
+  <data name="ERROO2" xml:space="preserve">
+    <value>No es posible borrar porque tiene registros relacionados</value>
+  </data>
+  <data name="ERROO3" xml:space="preserve">
+    <value>Ya existe el registro que intentas crear</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Equipo</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>El campo {0} no puede tener mas de {1} caracteres</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>El campo {0} es requerido</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="ERROO4" xml:space="preserve">
+    <value>El codigo de país no es válido</value>
+  </data>
+  <data name="ERROO5" xml:space="preserve">
+    <value>El codigo de equipo no es válido</value>
+  </data>
 </root>

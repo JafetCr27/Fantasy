@@ -57,7 +57,7 @@ public partial class CountriesIndex
             else
             {
                 var messageError = await responseHttp.GetErrorMessaggeAsync();
-                await SweetAlertService.FireAsync(Localizer["Error"], messageError, SweetAlertIcon.Error);
+                await SweetAlertService.FireAsync(Localizer["Error"], Localizer[messageError!], SweetAlertIcon.Error);
             }
             return;
         }
